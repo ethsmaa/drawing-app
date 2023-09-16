@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Draw.eo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>DRAW.EO</h1>
+    <div class="container">
+        <section class="toolbar">
+            <div class="tools active">
+                <img class="tool" id="brush" src="assets/Images/cute-pen.png" alt="brush">
+                <img class="tool" id="eraser" src="assets/Images/eraser.png" alt="eraser">
+                <div class="color">
+                    <input type="color" id="color-picker" value="#CBEEF4">
+                </div>
+            </div>
+
+            <input type="range" id="size-slider" min="1" max="30" value="5">
+            <button>Clear</button>
+        </section>
+        <section class="board">
+            <canvas></canvas>
+        </section>
+    </div>
+</div>
+
+
+<script src="App.js"></script>
+</body>
+</html>
