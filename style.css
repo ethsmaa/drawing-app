@@ -116,10 +116,9 @@ h1{
     width: 40px;
     cursor: pointer;
 }
- #size-slider {
+input[type="range"] {
      margin-bottom: 190px;
-     -moz-margin-bottom: 120px;
-     -moz-width: 129px;
+     width: 140px;
  }
 
 .board canvas {
