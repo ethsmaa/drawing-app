@@ -57,6 +57,7 @@ h1{
      align-items: center;
      padding: 15px;
      padding: 15px;
+     gap:2.5rem;
 
 
  }
@@ -72,7 +73,6 @@ h1{
      gap: .7rem;
      flex-wrap: wrap;
      margin-left: 25px;
-     margin-bottom: 100px;
  }
 
  .toolbar button {
@@ -83,6 +83,8 @@ h1{
      padding: 15px;
      width:170px;
      border:2px solid;
+     position: absolute;
+     bottom:80px
 
  }
 
@@ -117,7 +119,6 @@ h1{
     cursor: pointer;
 }
 input[type="range"] {
-     margin-bottom: 190px;
      width: 140px;
  }
 
