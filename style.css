@@ -118,7 +118,7 @@ h1{
 }
  #size-slider {
      margin-bottom: 190px;
-     width: 129px;
+     -moz-width: 129px;
  }
 
 .board canvas {
